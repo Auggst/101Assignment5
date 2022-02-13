@@ -12,7 +12,7 @@ Games101作业1-5，主要实现绘制三角形和MSAA反走样。
 # 环境
 wsl2子系统或linux系统
 ```
-git clone 
+git clone https://github.com/Auggst/101Assignment5.git
 mkdir build && cd build
 camke ..
 make -j4
