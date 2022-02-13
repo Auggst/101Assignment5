@@ -1,0 +1,78 @@
+#use_cache "/home/wzs/Graphics/RealTimeRendering/instructs/opencv-3.4.16/.cache"
+#do_unpack "ippicv_2020_lnx_intel64_20191018_general.tgz" "7421de0095c7a39162ae13a6098782f9" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_lnx_intel64_20191018_general.tgz" "/home/wzs/Graphics/RealTimeRendering/instructs/opencv-3.4.16/build/3rdparty/ippicv"
+#cmake_download "/home/wzs/Graphics/RealTimeRendering/instructs/opencv-3.4.16/.cache/ippicv/7421de0095c7a39162ae13a6098782f9-ippicv_2020_lnx_intel64_20191018_general.tgz" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_lnx_intel64_20191018_general.tgz"
+#try 1
+#   Trying 185.199.111.133...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (185.199.111.133) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [122 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS Unknown, Certificate Status (22):
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, Unknown (8):
+# [25 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS Unknown, Certificate Status (22):
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, Certificate (11):
+# [3067 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS Unknown, Certificate Status (22):
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, CERT verify (15):
+# [264 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS Unknown, Certificate Status (22):
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, Finished (20):
+# [52 bytes data]
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS Unknown, Certificate Status (22):
+# [1 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Finished (20):
+# [52 bytes data]
+# SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: C=US; ST=California; L=San Francisco; O=GitHub, Inc.; CN=www.github.com
+#  start date: May  6 00:00:00 2020 GMT
+#  expire date: Apr 14 12:00:00 2022 GMT
+#  subjectAltName: host "raw.githubusercontent.com" matched cert's "*.githubusercontent.com"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+#  SSL certificate verify ok.
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS Unknown, Unknown (23):
+# [1 bytes data]
+# GET /opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_lnx_intel64_20191018_general.tgz HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# TLSv1.3 (IN), TLS Unknown, Certificate Status (22):
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+# [209 bytes data]
+# Operation too slow. Less than 1 bytes/sec transferred the last 60 seconds
+# stopped the pause stream!
+# Closing connection 0
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS Unknown, Unknown (21):
+# [1 bytes data]
+# TLSv1.3 (OUT), TLS alert, Client hello (1):
+# [2 bytes data]
+# 
+
